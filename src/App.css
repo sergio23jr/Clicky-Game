@@ -1,0 +1,34 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: green
+}
+body{
+  background-image: url("https://wallpaper-house.com/data/out/7/wallpaper2you_172634.png");
+}
+.container{
+  height: 100%;
+  flex-wrap: wrap;
+}
+#board {
+  
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#board img {
+  height: 200px;
+  width:200px;
+}
+
+div.image {
+  height: 200px;
+  width: 200px;
+  font-size: 100px;
+  text-align: center;
+  line-height: 200px;
+  background-color: azure;
+  border: 1px solid black;
+  margin: 10px;
+}
